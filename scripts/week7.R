@@ -6,5 +6,5 @@ library(dplyr)
 
 # Create new table: fish by size
 fish_data_cat = fish_data %>%
-  mutate(length_cat = ifelse(length > 200, "big", "small"))
+  mutate(length_cat = ifelse(length > 300, "large", "small"))
 
